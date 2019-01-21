@@ -1,0 +1,23 @@
+{
+  "name": "wee-component",
+  "version": "0.0.0",
+  "description": "react ui component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldc4/wee-component.git"
+  },
+  "keywords": [
+    "ui",
+    "component"
+  ],
+  "author": "weedust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldc4/wee-component/issues"
+  },
+  "homepage": "https://github.com/ldc4/wee-component#readme"
+}
