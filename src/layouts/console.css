@@ -1,0 +1,21 @@
+.console {
+  height: 100%;
+  width: 100%;
+}
+
+.console .top-menu {
+  height: 64px;
+  background-color: dodgerblue;
+  opacity: 0.3;
+}
+
+.console .body {
+  height: calc(100% - 64px);
+  display: flex;
+}
+
+.console .body .sidebar {
+  width: 300px;
+  background-color: yellowgreen;
+  opacity: 0.3;
+}

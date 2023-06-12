@@ -1,4 +1,8 @@
-.DS_Store 
-node_modules/ 
-dist* 
- 
+/.env.local
+/.weerc.local.ts
+/.weerc.local.js
+/config/config.local.ts
+/config/config.local.js
+/src/.wee
+/.wee
+node_modules

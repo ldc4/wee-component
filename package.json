@@ -1,23 +1,17 @@
 {
-  "name": "wee-component",
-  "version": "0.0.0",
-  "description": "react ui component",
+  "name": "@vvee/app",
+  "version": "0.0.1",
+  "description": "wee-frame app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "wee start app",
+    "build": "wee build app",
+    "debug": "node --inspect-brk=5858 ../../node_modules/.bin/wee start app"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ldc4/wee-component.git"
+  "dependencies": {
+    "@vvee/cli": "latest",
+    "lodash": "^4.17.21"
   },
-  "keywords": [
-    "ui",
-    "component"
-  ],
-  "author": "weedust",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ldc4/wee-component/issues"
-  },
-  "homepage": "https://github.com/ldc4/wee-component#readme"
+  "author": "",
+  "license": "MIT"
 }
