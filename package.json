@@ -1,7 +1,7 @@
 {
-  "name": "@vvee/app",
-  "version": "0.0.1",
-  "description": "wee-frame app",
+  "name": "@vvee/component",
+  "version": "0.0.0",
+  "description": "wee-frame component",
   "main": "index.js",
   "scripts": {
     "start": "wee start app",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vvee/cli": "latest",
+    "classnames": "^2.3.2",
     "lodash": "^4.17.21"
   },
   "author": "",

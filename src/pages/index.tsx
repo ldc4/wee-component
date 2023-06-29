@@ -14,7 +14,7 @@ export default function App() {
   }, []);
   return (
     <div className="app" id="app">
-      
+      { 'hello world!' }
     </div>
   )
 }
