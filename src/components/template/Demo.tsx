@@ -1,7 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import type { Data } from './type.d';
+// 数据
+export interface Data {
+  key: string;      // 唯一标识
+  value: string;    // 值
+}
 
 export interface DemoProps {
   data: Data;

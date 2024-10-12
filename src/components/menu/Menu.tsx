@@ -1,14 +1,25 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import type { MenuItem } from './type.d';
-
 export interface MenuProps {
   mode?: 'vertical' | 'horizontal';
   items: MenuItem[];
   className?: string;
   style?: React.CSSProperties;
   onClick?: Function;
+}
+
+export interface SiderItem {
+  key: string;          // 唯一标识
+  label: string;        // 文案
+  path: string;         // 路径
+}
+
+export interface MenuItem {
+  key: string;          // 唯一标识
+  label: string;        // 文案
+  path?: string;         // 路径
+  siders?: SiderItem[];  // 侧边栏
 }
 
 /**
