@@ -1,7 +1,9 @@
 import React from 'react';
 import { useEffect } from 'react';
 
-import {
+import { shadcn } from '../components';
+
+const {
   Button,
   Checkbox,
   Input,
@@ -12,7 +14,7 @@ import {
   DropdownMenuTrigger,
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
-} from '../components';
+} = shadcn;
 
 import './index.css';
 

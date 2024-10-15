@@ -1,9 +1,2 @@
-import './index.css';
-
-export * from './menu';
-export * from './layout';
-export * from './button';
-export * from './radio-group';
-export * from './checkbox';
-export * from './input';
-export * from './dropdown';
+export * as shadcn from './shadcn-ui';
+export * as ve from './ve-ui';

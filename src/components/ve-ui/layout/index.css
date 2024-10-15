@@ -1,0 +1,25 @@
+.ve-layout {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.ve-layout .ve-header {
+  height: 64px;
+  background: #ffffffff;
+}
+
+.ve-layout .ve-content {
+  flex: auto;
+}
+
+.ve-layout .ve-sidebar {
+  width: 300px;
+  background: #ffffffff;
+}
+
+.ve-layout .ve-footer {
+  height: 32px;
+  background: #ffffffff;
+}
+

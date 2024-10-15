@@ -1,0 +1,33 @@
+.ve-menu ul {
+  list-style: none;
+}
+.ve-menu .ve-menu-item-list {
+  display: flex;
+  align-items: center;
+}
+.ve-menu .ve-menu-item-list .ve-menu-item {
+  font-size: 14px;
+  margin: 4px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.ve-menu .ve-menu-item-list .ve-menu-item.active {
+  color: rgb(0, 82, 217);
+  background-color: rgb(242, 243, 255);
+}
+.ve-menu .ve-menu-item-list .ve-menu-item:hover {
+  background: #eeeeee;
+}
+.ve-menu .ve-menu-item-list.vertical {
+  flex-direction: column;
+}
+.ve-menu .ve-menu-item-list.vertical .ve-menu-item {
+  font-size: 14px;
+  width: 100%;
+  margin: 0;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
