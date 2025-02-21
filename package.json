@@ -1,6 +1,6 @@
 {
   "name": "@vvee/component",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "wee-frame component",
   "scripts": {
     "start": "wee start app",
