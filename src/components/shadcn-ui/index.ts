@@ -7,3 +7,5 @@ export * from './dropdown-menu';
 export * from './input';
 export * from './popover';
 export * from './radio-group';
+export * from './card';
+export * from './separator';

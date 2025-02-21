@@ -5,15 +5,10 @@ import { shadcn } from '../components';
 
 const {
   Button,
-  Checkbox,
-  Input,
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
+  Card,
+  CardHeader,
+  CardContent,
+  Separator,
 } = shadcn;
 
 import './index.css';
@@ -31,23 +26,20 @@ export default function App() {
 
   return (
     <div className="app" id="app">
-      <Button variant="outline" style={{ width: 360 }}></Button>
-      <Checkbox />
-      <Input value={'hello'} className='w-200' />
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <Button variant="outline">{position}</Button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56">
-          <DropdownMenuLabel>Panel Position</DropdownMenuLabel>
-          <DropdownMenuSeparator />
-          <DropdownMenuRadioGroup value={position} onValueChange={setPosition}>
-            <DropdownMenuRadioItem value="top">Top</DropdownMenuRadioItem>
-            <DropdownMenuRadioItem value="bottom">Bottom</DropdownMenuRadioItem>
-            <DropdownMenuRadioItem value="right">Right</DropdownMenuRadioItem>
-          </DropdownMenuRadioGroup>
-        </DropdownMenuContent>
-      </DropdownMenu>
+      <Card className="w-[450px]">
+        <CardHeader>
+          <div className="flex justify-between">
+            <Button className="w-[280px]">轻松开始</Button>
+            <Button variant="outline" className="w-[80px]">补单</Button>
+          </div>
+          <div>
+            <Separator />
+          </div>
+        </CardHeader>
+        <CardContent>
+          一片区域
+        </CardContent>
+      </Card>
     </div>
   )
 }
