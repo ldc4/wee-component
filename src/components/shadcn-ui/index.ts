@@ -9,3 +9,4 @@ export * from './popover';
 export * from './radio-group';
 export * from './card';
 export * from './separator';
+export * from './lib';
