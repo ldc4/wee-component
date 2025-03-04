@@ -1,4 +1,5 @@
 import './index.css';
+export * from './avatar';
 export * from './button';
 export * from './checkbox';
 export * from './command';
