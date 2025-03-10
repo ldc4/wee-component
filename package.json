@@ -1,6 +1,6 @@
 {
   "name": "@vvee/component",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "wee-frame component",
   "scripts": {
     "start": "wee start app",
@@ -22,7 +22,7 @@
     "clsx": "^2.1.0",
     "cmdk": "^1.0.0",
     "lodash": "^4.17.21",
-    "lucide-react": "^0.336.0",
+    "lucide-react": "^0.479.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
