@@ -12,3 +12,4 @@ export * from './card';
 export * from './separator';
 export * from './lib';
 export * from './resizable';
+export * from './tooltip';
