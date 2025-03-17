@@ -15,3 +15,5 @@ export * from './resizable';
 export * from './tooltip';
 export * from './progress';
 export * from './table';
+export * from './badge';
+export * from './select';

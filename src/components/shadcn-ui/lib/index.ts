@@ -1,7 +1,7 @@
-import uitls from './utils';
+import utils from './utils';
 
 const lib = {
-  uitls,
+  utils,
 };
 
 export { lib }
